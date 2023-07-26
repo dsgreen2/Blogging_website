@@ -1,0 +1,42 @@
+.contactbox{
+    margin:0 auto;
+    width:80%;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    /*background-color: aqua;*/
+    padding: 40px;
+    gap: 20px;
+}
+
+footer{
+    position:static;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+  gap:20px;
+  padding:10px;
+  z-index: 1;
+  height:100%;
+}
+
+.form-box input,textarea{
+    border:none;
+    box-shadow:5px 5px 5px rgb(169, 169, 172);
+    background-color: white;
+    
+}
+
+.contactbox::before{
+    content:' ';
+    position:absolute;
+    width:80%;
+    height:70%;
+    opacity:0.15;
+    background-image: url(../Screenshot\ 2023-07-26\ at\ 2.24.03\ PM.png);
+    background-size:contain;
+
+}

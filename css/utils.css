@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+:root{
+    --main-bg-color:brown;
+    --font1:'Merriweather', serif;
+}
+.font-1{
+    color:var(--font1);
+}
+.max-width-1{
+max-width: 80vw;
+}
+
+.max-width-2{
+    max-width:60vw;
+}
+
+.m-auto{
+    margin:auto;
+}
+
+.my-2{
+    margin-top:12px;
+    margin-bottom: 12px;
+}
+
+.btn{
+    padding:5px 15px;
+    /* border:3px solid black;*/
+    border:none;
+    border-radius: 4px;
+    font-family:var(--font1);
+    font-size:16px;
+    cursor:pointer;
+    transition:all 0.3s ease-in-out;
+}
+
+
+.btn:hover{
+    background-color:var(--main-bg-color);
+    color:white;
+}

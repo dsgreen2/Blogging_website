@@ -1,0 +1,13 @@
+.postimg{
+    height:200px;
+    overflow:hidden;   
+}
+
+.home-articles{
+    display:flex;
+    flex-direction: row;
+}
+.home-article{
+    display: flex;
+    flex-direction: column;
+}
